@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+*{
+    color: #2D3436;
+}
+.bg-blue{
+    background-color: #0984E3;
+    color: #FFFFFF;
+}
+.btn-blue{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #0984E3;
+    font-size: 12pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.btn-yellow{
+    background-color: #F1C40F;
+}
+
+/* NAVBAR */
+.navbar-fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    z-index: 2;
+}
+.navbar .navbar-brand {
+    color: #FFFFFF;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar-nav li a {
+    font-size: 11pt;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+/* BACKGROUND */
+.bg-image{
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg'); 
+    height: 100vh;
+}
+.bg-black{
+    width: 100%;
+    height: 100%;
+    background: rgba(53, 59, 72);
+    opacity: 0.6;
+    z-index: 1;
+}
+.text-centered{
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.text-centered span{
+    font-size: 11pt;
+    color: #F1C40F;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+.text-centered h1{
+    font-size: 28pt;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+/* CONTENT */
+/* NUSA TRANS */
+.header-content{
+    border-left: 8px solid #0984E3;
+    color: #2D3436;
+}
+.bottom-border{
+    border-left: 0 !important;
+}
+.header-content .border{
+    width: 8%;
+    height: 8px;
+    border: 0 !important;
+    background-color: #0984E3;
+    left: 50%;
+    margin: auto;
+    /* transform: translate(-50%); */
+}
+.header-content h4{
+    font-size: 20pt;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 0;
+}
+.body-content p{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    text-align: justify;
+}
+.card-visitors{
+    border: 1px solid #2D3436;
+    min-height: 100%;
+}
+.card-visitors::before{
+    content: "";
+    display: block;
+    padding-top: 12%;
+}
+.card-visitors::after{
+    content: "";
+    display: block;
+    padding-bottom: 12%;
+}
+.card-visitors .card-body{
+    font-size: 12pt;
+}
+.image{
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.image::before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+/* LAYANAN BERBAGAI KOTA */
+.card-city{
+    width: 250px;
+    height: 321px;
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    z-index: 0;
+    padding: 0;
+}
+.card-city .bg-black{
+    display: flex;
+    border-radius: 10px;
+}
+.card-city .bg-black .card-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.card-city .bg-black .card-text span{
+    color: #FFFFFF;
+}
+
+/* RATING */
+
+#RatingUsers .card{
+    border: 0;
+}
+.user-content h5 {
+    font-size: 14pt;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    color: #2D3436;
+}
+.user-content span i {
+    font-size: 20pt;
+    color: #2D3436;
+}
+.user-content p {
+    margin-top: 5px;
+    font-size: 12pt;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    color: #2D3436;
+}
+
+/* FOOTER */
+footer{
+    background: #0984E3;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+footer h5{
+    font-weight: 700;
+}
+footer p{
+    font-weight: 400;
+    color: #fff;
+}
+footer a{
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+}
+footer i{
+    color: #fff;
+}
